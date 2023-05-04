@@ -5,7 +5,7 @@ import joblib
 from utils import preprocessor
 
 app = Flask(__name__)
-model = joblib.load('/Users/jieli/Desktop/Labs/IOD_Lab-10_2/model.joblib')
+model = joblib.load('model.joblib')
 
 @app.route('/')
 def home():
